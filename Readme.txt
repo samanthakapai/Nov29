@@ -1,0 +1,1 @@
+This application redraws the image on the screen with the change of orientation

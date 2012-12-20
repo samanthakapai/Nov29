@@ -18,6 +18,8 @@
 		A316F475168144C00090420D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F45C168144C00090420D /* Foundation.framework */; };
 		A316F47D168144C00090420D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A316F47B168144C00090420D /* InfoPlist.strings */; };
 		A316F480168144C00090420D /* Nov29Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F47F168144C00090420D /* Nov29Tests.m */; };
+		A316F48B168145BF0090420D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F48A168145BE0090420D /* ViewController.m */; };
+		A316F492168146A20090420D /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F491168146A20090420D /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		A316F47C168144C00090420D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A316F47E168144C00090420D /* Nov29Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov29Tests.h; sourceTree = "<group>"; };
 		A316F47F168144C00090420D /* Nov29Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov29Tests.m; sourceTree = "<group>"; };
+		A316F489168145940090420D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A316F48A168145BE0090420D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A316F490168146340090420D /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A316F491168146A20090420D /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				A316F460168144C00090420D /* Nov29 */,
-				A316F478168144C00090420D /* Nov29Tests */,
 				A316F459168144C00090420D /* Frameworks */,
 				A316F457168144C00090420D /* Products */,
 			);
@@ -109,6 +114,11 @@
 				A316F469168144C00090420D /* Nov29AppDelegate.h */,
 				A316F46A168144C00090420D /* Nov29AppDelegate.m */,
 				A316F461168144C00090420D /* Supporting Files */,
+				A316F489168145940090420D /* ViewController.h */,
+				A316F48A168145BE0090420D /* ViewController.m */,
+				A316F490168146340090420D /* View.h */,
+				A316F491168146A20090420D /* View.m */,
+				A316F478168144C00090420D /* Nov29Tests */,
 			);
 			path = Nov29;
 			sourceTree = "<group>";
@@ -132,7 +142,7 @@
 				A316F479168144C00090420D /* Supporting Files */,
 			);
 			path = Nov29Tests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		A316F479168144C00090420D /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -252,6 +262,8 @@
 			files = (
 				A316F467168144C00090420D /* main.m in Sources */,
 				A316F46B168144C00090420D /* Nov29AppDelegate.m in Sources */,
+				A316F48B168145BF0090420D /* ViewController.m in Sources */,
+				A316F492168146A20090420D /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
